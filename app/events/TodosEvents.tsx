@@ -6,6 +6,8 @@ import { router, useRouter } from 'expo-router';
 
 const { width } = Dimensions.get('window');
 
+
+
 // Mock data for all events
 const mockAllEvents = [
   {
@@ -91,6 +93,7 @@ export default function AllEventsScreen() {
   const [events] = useState(mockAllEvents);
   const [selectedCategory, setSelectedCategory] = useState('Todos');
 
+  
   // Get unique categories from events
   const categories = ['Todos', ...new Set(mockAllEvents.map(event => event.category))];
 

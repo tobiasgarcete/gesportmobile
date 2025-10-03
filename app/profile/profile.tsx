@@ -171,6 +171,7 @@ export default function ProfileScreen() {
         </View>
 
         {/* Membership Info */}
+        
         <View className="mx-4 mb-8">
           <View className="bg-white rounded-2xl p-4 shadow-sm">
             <View className="flex-row items-center">
